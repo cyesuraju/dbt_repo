@@ -17,7 +17,7 @@ with source_data as (
 
 )
 
-select *
+select *,current_timestamp as date
 from source_data
 
 /*
