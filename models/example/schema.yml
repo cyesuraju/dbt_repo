@@ -3,6 +3,7 @@ version: 2
 
 models:
     - name: my_first_dbt_model
+      schema : RAJU_SCHEMA2
       description: "A starter dbt model"
       columns:
           - name: id
@@ -13,6 +14,7 @@ models:
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
+      schema : RAJU_SCHEMA2
       columns:
           - name: id
             description: "The primary key for this table"
